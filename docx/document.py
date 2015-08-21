@@ -28,6 +28,9 @@ class Document(ElementProxy):
         self._part = part
         self.__body = None
 
+    def add_header(self,text='',header_type='first'):
+        return
+
     def add_heading(self, text='', level=1):
         """
         Return a heading paragraph newly added to the end of the document,
